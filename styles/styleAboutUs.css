@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+
+:root {
+    --primaria: #0c4037;
+    --secundaria: #bb935d;
+    --terciaria: #dce2ec;
+}
+
+#banner {
+    width: 80%;
+    height: 25vh;
+    background-image: url(/img/Logo_9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    margin: 20px auto;
+    padding:20PX 20PX; 
+}
+
+#navBar {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--primaria);
+    justify-content: center;
+   
+    
+}
+
+#navBar a {
+    text-decoration: none;
+    color: var(--secundaria);
+    gap: 50px;
+    font-size: 20x;
+    margin-left: 50px; 
+    transition: 1s;
+}
+ #navBar a:hover{
+
+    font-size: 21.5px;
+    background-color: var(--secundaria);
+    color: var(--primaria);
+ }
+
+#fotoIndex{
+    width: 100%;
+    height: 300px;
+    background-image: url(/img/giammarco-boscaro-xLhKkk2tKkA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 20px;
+   
+   
+
+}
+
+#principal {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column; /* Empilha as seções verticalmente */
+    gap: 20px;
+    margin: 0 auto;
+    text-align: justify;
+}
+#principal h1{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.secao {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; /* Ajuste conforme necessário */
+    margin: 20px auto;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap; /* Isso permite que a imagem e o texto se ajustem em telas menores */
+}
+
+
+#secaoA {
+    width: 60%; /* Proporção do texto */
+    text-align: justify;
+    line-height: 2;
+}
+
+#secaoA h2 {
+  text-align: center;
+
+}
+
+#assideImageHammerOfJustice {
+    width: 35%; /* Tamanho da imagem ao lado do texto */
+    background-image: url(/img/IMG_7683.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    height: auto;
+    min-height: 300px; /* Garantindo altura mínima */
+    border-radius: 15px;
+}
+
+
+#secaoB {
+    width: 60%; /* Proporção do texto */
+    text-align: justify;
+    line-height: 2;
+}
+
+#secaoB h2 {
+  text-align: center;
+
+}
+
+#assideImageHammerOfJustice2 {
+    padding-top: 100px;
+    width: 35%; /* Tamanho da imagem ao lado do texto */
+    background-image: url(/img/Cópia\ de\ IMG_7784.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: auto;
+    min-height: 300px; /* Garantindo altura mínima */
+    border-radius: 15px;
+}
+
+footer {
+    width: 100%;
+    background: linear-gradient(black, var(--primaria));
+    color: var(--secundaria);
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}

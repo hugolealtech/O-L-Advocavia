@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+
+:root {
+    --primaria: #0c4037;
+    --secundaria: #bb935d;
+    --terciaria: #a7ac89;
+}
+
+#banner {
+    width: 80%;
+    height: 25vh;
+    background-image: url(/img/Logo_9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    margin: 20px auto;
+    padding:20PX 20PX; 
+}
+
+#navBar {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--primaria);
+    justify-content: center;
+   
+    
+}
+
+#navBar a {
+    text-decoration: none;
+    color: var(--secundaria);
+    gap: 50px;
+    font-size: 20x;
+    margin-left: 50px; 
+    transition: 1s;
+}
+ #navBar a:hover{
+
+    font-size: 21.5px;
+    background-color: var(--secundaria);
+    color: var(--primaria);
+ }
+
+#fotoIndex{
+    width: 100%;
+    height: 500px;
+    background-image: url(/img/giammarco-boscaro-xLhKkk2tKkA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 20px;
+   
+}
+
+#master{
+    width: 100%;
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 20px auto;
+    gap: 10px;
+   
+} 
+
+main > div{
+    text-align: center;
+}
+.areaAtuacao{
+
+    width: 15%;
+    height: auto;
+    text-align: center;
+    padding: 10px 30px 10px 10px;
+    margin: 0px 0px 10px 10px;
+    border: 1px solid black;
+    font-size: 15px;
+    background-image: url(/img/black-wooden-floor.jpg);
+    transition: 1s;
+    color: var(--terciaria);
+    border-radius: 30px;
+   
+    
+
+}
+.areaAtuacao:hover{
+
+    background-color: var(--primaria);
+    color: var(--secundaria);
+    transition: 1s;
+    width: 18%;
+}
+.areaAtuacao img{
+
+    width: 50%;
+  text-align: center;
+
+}
+   
+/* }
+
+#artigoP{
+
+    width: 50%;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;  
+
+}
+
+
+
+#artigoF{
+
+    text-align: right;
+    width: 80%;
+   
+}
+
+.artigoI img{
+
+    width: 300px;
+    border-radius: 20px;
+    background-color:aquamarine ;
+ 
+  
+} */
+
+footer {
+    width: 100%;
+    background: linear-gradient(black, var(--primaria));
+    color: var(--secundaria);
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
